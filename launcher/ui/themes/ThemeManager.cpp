@@ -323,6 +323,8 @@ void ThemeManager::initializeCatPacks()
     }
 
 
+    addCatPack(std::make_unique<FreesmCatPack>("bng", QObject::tr("BNG Launcher")));
+
     if (!m_catPacksFolder.mkpath("."))
         themeWarningLog() << "Couldn't create catpacks folder";
     themeDebugLog() << "CatPacks Folder Path:" << m_catPacksFolder.absolutePath();
