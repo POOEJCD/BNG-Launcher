@@ -694,8 +694,8 @@ Application::Application(int& argc, char** argv) : QApplication(argc, argv)
 
         // Theming
         m_settings->registerSetting("IconTheme", QString("fluent_dark"));
-        m_settings->registerSetting("ApplicationTheme", QString("freesm"));
-        m_settings->registerSetting("BackgroundCat", QString("typescript"));
+        m_settings->registerSetting("ApplicationTheme", QString("bng-mono"));
+        m_settings->registerSetting("BackgroundCat", QString("kitteh"));
         m_settings->registerSetting("Snow", isWinter);
 
         // Remembered state
@@ -851,7 +851,7 @@ Application::Application(int& argc, char** argv) : QApplication(argc, argv)
         m_settings->registerSetting({ "PostExitCommand", "PostExitCmd" }, "");
 
         // The cat
-        m_settings->registerSetting("TheCat", true);
+        m_settings->registerSetting("TheCat", false);
         m_settings->registerSetting("CatOpacity", 100);
         m_settings->registerSetting("CatFit", "fit");
 
@@ -1303,7 +1303,7 @@ bool Application::createSetupWizard()
             const QString style =
                 QGuiApplication::styleHints()->colorScheme() == Qt::ColorScheme::Dark ? QStringLiteral("dark") : QStringLiteral("bright");
 #else
-            const QString style = QStringLiteral("freesm");
+            const QString style = QStringLiteral("bng-mono");
 #endif
 
             settings()->set("ApplicationTheme", style);

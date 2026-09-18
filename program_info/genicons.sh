@@ -1,7 +1,7 @@
 #!/bin/bash
 
-LAUNCHER_APPID="org.freesmlauncher.FreesmLauncher"
-LAUNCHER_APP_BINARY_NAME="freesmlauncher"
+LAUNCHER_APPID="org.bnglauncher.BNGLauncher"
+LAUNCHER_APP_BINARY_NAME="bnglauncher"
 
 svg2png() {
     input_file="$1"

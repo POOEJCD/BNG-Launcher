@@ -914,6 +914,8 @@ SET(LAUNCHER_SOURCES
     # GUI - themes
     ui/themes/FusionTheme.cpp
     ui/themes/FusionTheme.h
+    ui/themes/BNGMonoTheme.cpp
+    ui/themes/BNGMonoTheme.h
     ui/themes/FreesmTheme.cpp
     ui/themes/FreesmTheme.h
     ui/themes/GruvboxTheme.cpp

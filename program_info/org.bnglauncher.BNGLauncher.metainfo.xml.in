@@ -3,7 +3,7 @@
   <id>@Launcher_AppID@</id>
   <name>Freesm Launcher</name>
   <summary>A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once</summary>
-  <developer id="org.freesmlauncher">
+  <developer id="org.bnglauncher">
       <name>Freesm Launcher Contributors</name>
     </developer>
   <metadata_license>CC0-1.0</metadata_license>
@@ -28,11 +28,11 @@
   <screenshots>
     <screenshot type="default">
       <caption>The main Freesm Launcher window</caption>
-      <image type="source" width="1117" height="780">https://raw.githubusercontent.com/FreesmTeam/FreesmLauncher/refs/heads/develop/docs/screenshots/freesmlauncher_home_screenshot.png</image>
+      <image type="source" width="1117" height="780">https://raw.githubusercontent.com/FreesmTeam/BNGLauncher/refs/heads/develop/docs/screenshots/bnglauncher_home_screenshot.png</image>
     </screenshot>
     <screenshot>
       <caption>Modpack adding</caption>
-      <image type="source" width="1058" height="540">https://raw.githubusercontent.com/FreesmTeam/FreesmLauncher/refs/heads/develop/docs/screenshots/freesmlauncher_instance_add_screenshot.png</image>
+      <image type="source" width="1058" height="540">https://raw.githubusercontent.com/FreesmTeam/BNGLauncher/refs/heads/develop/docs/screenshots/bnglauncher_instance_add_screenshot.png</image>
     </screenshot>
     <screenshot>
       <caption>Modpack updating (from Prism Launcher)</caption>
@@ -52,23 +52,23 @@
     </screenshot>
     <screenshot>
       <caption>MiSide background :3</caption>
-      <image type="source" width="1117" height="766">https://raw.githubusercontent.com/FreesmTeam/FreesmLauncher/refs/heads/develop/docs/screenshots/freesmlauncher_home_screenshot_opacity.png</image>
+      <image type="source" width="1117" height="766">https://raw.githubusercontent.com/FreesmTeam/BNGLauncher/refs/heads/develop/docs/screenshots/bnglauncher_home_screenshot_opacity.png</image>
     </screenshot>
     <screenshot>
       <caption>Customization</caption>
-      <image type="source" width="1264" height="809">https://raw.githubusercontent.com/FreesmTeam/FreesmLauncher/refs/heads/develop/docs/screenshots/freesmlauncher_settings_theme_screenshot.png</image>
+      <image type="source" width="1264" height="809">https://raw.githubusercontent.com/FreesmTeam/BNGLauncher/refs/heads/develop/docs/screenshots/bnglauncher_settings_theme_screenshot.png</image>
     </screenshot>
   </screenshots>
   <releases>
     <release version="@Launcher_VERSION_NAME@" date="@Launcher_BUILD_TIMESTAMP@"></release>
   </releases>
-  <url type="homepage">https://github.com/FreesmTeam/FreesmLauncher</url>
-  <url type="help">https://github.com/FreesmTeam/FreesmLauncher</url>
-  <url type="bugtracker">https://github.com/FreesmTeam/FreesmLauncher/issues</url>
-  <url type="contact">https://github.com/FreesmTeam/FreesmLauncher/</url>
-  <url type="vcs-browser">https://github.com/FreesmTeam/FreesmLauncher</url>
-  <url type="contribute">https://github.com/FreesmTeam/FreesmLauncher/blob/develop/CONTRIBUTING.md</url>
-  <url type="translate">https://hosted.weblate.org/projects/freesmlauncher/freesmlauncher-launcher/</url>
+  <url type="homepage">https://github.com/FreesmTeam/BNGLauncher</url>
+  <url type="help">https://github.com/FreesmTeam/BNGLauncher</url>
+  <url type="bugtracker">https://github.com/FreesmTeam/BNGLauncher/issues</url>
+  <url type="contact">https://github.com/FreesmTeam/BNGLauncher/</url>
+  <url type="vcs-browser">https://github.com/FreesmTeam/BNGLauncher</url>
+  <url type="contribute">https://github.com/FreesmTeam/BNGLauncher/blob/develop/CONTRIBUTING.md</url>
+  <url type="translate">https://hosted.weblate.org/projects/bnglauncher/bnglauncher-launcher/</url>
   <content_rating type="oars-1.1">
     <content_attribute id="violence-fantasy">moderate</content_attribute>
     <content_attribute id="social-chat">intense</content_attribute>
